@@ -1,6 +1,6 @@
 from hello import hello
 
 if __name__ == "__main__":
-    times = int(input("Enter times: "))
+    name = input("Enter name: ")    # Changed line
 
-    hello(times)
+    hello(name)                     # Changed line

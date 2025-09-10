@@ -12,3 +12,6 @@ if __name__ == "__main__":
     foo()
 
     print("New message")
+
+    for _ in range(10):
+        continue

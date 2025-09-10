@@ -1,4 +1,6 @@
 from hello import hello
+from boo import boo
+from foo import foo
 
 if __name__ == "__main__":
     times = int(input("Enter times for printing: "))
@@ -6,3 +8,7 @@ if __name__ == "__main__":
     print('My name is Rodion from RT5')
 
     hello(times, name)
+    boo()
+    foo()
+
+    print("New message")
